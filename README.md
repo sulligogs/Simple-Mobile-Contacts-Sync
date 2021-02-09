@@ -5,7 +5,7 @@ v1.0
 Synchronises company users as contacts to their mobile phones.  Could be useful for small businesses with a limited infrastructure.  Saves the workforce from having to do it manually.
 
 ## Motive
-I started getting interested in the Microsoft Graph API and used this as a solution to teaching myself how it works  Also gave me a chance to stretch my PowerShell legs.  It uses the Contacts.ReadWrite and User.Read.All app permissions.
+I started getting interested in the Microsoft Graph API and used this as a solution to teaching myself how it works.  Also gave me a chance to stretch my PowerShell legs.  It uses the Contacts.ReadWrite and User.Read.All app permissions.
 
 I know there are more elegant methods of acheiving this solution with Dynamics 365 and/or Intune.
 
