@@ -9,7 +9,7 @@ I started getting interested in the Microsoft Graph API and used this as a solut
 
 I know there are more elegant methods of acheiving this solution with Dynamics 365 and/or Intune.
 
-## Workings
+## Mechanics
 Each Azure AD user is pushed as a personal contact to each other's Exchange Online mailbox.  Where they have the Outlook mobile app installed with its contact sync enabled, they then get pushed further to their mobile phone's contact app.
 
 ### Usage
