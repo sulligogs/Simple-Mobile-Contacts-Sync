@@ -10,7 +10,7 @@ I started getting interested in the Microsoft Graph API and used this as a solut
 I know there are more elegant methods of achieving this solution with Dynamics 365 and/or Intune.
 
 ## Mechanics
-Each Azure AD user is pushed as a personal contact to each other's Exchange Online mailbox.  Where they have the Outlook mobile app installed with its contact sync enabled, they then get pushed further to their mobile phone's contact app.
+Each enabled Azure AD user is pushed as a personal contact to each other's Exchange Online mailbox.  Where they have the Outlook mobile app installed with its contact sync enabled, they then get pushed further to their mobile phone's contact app.
 
 ### Usage
 powershell -File *path*\SMCS.ps1 -ClientID client id -TenantID tenant id -Thumbprint certificate id [-GroupFilter group id] [-CategoryRemoval category]
